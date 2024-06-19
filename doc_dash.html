@@ -1,0 +1,79 @@
+<!-- doctor_dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1f1f1f; /* Dark background */
+        color: #ffffff; /* White text */
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #333333; /* Darker container background */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow effect */
+    }
+
+    h1 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .doctor-info {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #666666; /* Darker border */
+        text-align: left;
+    }
+
+    th {
+        background-color: #333333; /* Darker table header background */
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Patient Dashboard</h1>
+    <div class="doctor-info">
+        <p>Doctor: Dr. John Doe</p>
+        <p>Specialty: Cardiologist</p>
+        <!-- Add more doctor information here -->
+    </div>
+    <table>
+        <tr>
+            <th>Patient Name</th>
+            <th>Pulse</th>
+            <th>SpO2</th>
+            <th>Temperature</th>
+            <th>Diagnosis</th>
+        </tr>
+        <tr>
+            <td>Patient 1</td>
+            <td>72 bpm</td>
+            <td>98%</td>
+            <td>36.5°C</td>
+            <td>Normal</td>
+        </tr>
+        <!-- Add more rows for other patients -->
+    </table>
+</div>
+</body>
+</html>
